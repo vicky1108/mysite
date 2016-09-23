@@ -1,0 +1,443 @@
+﻿
+
+	
+
+	
+
+   body {
+    background: url(img/pdf.jpg) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+
+
+		
+
+
+
+p{
+
+	font-size:24pt;
+	text-indent:12pt;
+
+}
+p.a{
+	font-family:Serif;
+	font-size:24pt;
+	text-align:center;
+}
+
+p.b{
+	font-family:Serif;
+	font-size:18px;
+	text-align:center;
+}
+
+p.c{
+	font-style:italic;
+	font-family:Serif;
+	font-size:18px;
+	text-align:center;
+}
+h2{
+	text-align:center;
+	font-size:26px;
+	font-style:italic;
+	font-family:Monotype Corsiva;
+	color:red;
+}
+p.qwerty{
+	color:blue;
+	cursor:pointer;
+	text-transform:underline;}
+h2.a{
+	text-align:center;
+	font-size:26px;
+	font-style:italic;
+	font-family:Monotype Corsiva;
+	color:white;
+}
+h2.aa{
+	text-align:center;
+	font-size:26px;
+	font-style:italic;
+	font-family:Monotype Corsiva;
+	color:white;
+	text-transform:underline;
+}
+
+h3:first-letter {
+    font-family: "Times New Roman", Times, serif; /* Гарнитура шрифта первой буквы */
+    font-size: 200%; /* Размер шрифта первого символа */
+    color: red; /* Красный цвет текста */
+   }
+h3{
+	font-family:Serif;
+	font-size:16pt;
+	margin-left: 50px; 
+	 margin-right: 10px; 
+	text-align:center;
+}
+h3.s{
+font-style:italic;
+
+
+}
+h3.ss{
+	font-style:italic;
+
+
+
+}
+h3.ss:first-letter{
+	font-style:italic;
+	color:red;
+	font-size:30px;
+
+}
+h2.qw
+{
+	font-size:26px;
+	font-style:italic;
+	font-family:Monotype Corsiva;
+	color: red;
+}
+irame{
+	margin-left: 50px; 
+	  margin-right: 10px; 
+}
+
+
+h5{
+	font-family:Sans-Serif;
+	font-size:12pt;
+
+	text-align:center;
+}
+p.b{
+	font-family:fantasy;
+	font-size:30pt;
+
+}
+#header{
+
+	  margin-top: 350px; 
+
+}
+
+#left {
+	  float: left; 
+	  width: 250px; 
+		margin-left: 0px; 
+	  margin-right: 10px; 
+	
+}
+marquee{ float: right; 
+}
+#right {
+  float: right; 
+  width: 250px; 
+   margin-left: 10px; 
+  margin-right: 0px; 
+}
+#center {
+float: center; 
+  margin-left: 250px; 
+  margin-right: 200px; 
+    margin-top: 100px; 
+}
+.clear {
+  clear: both; 
+}
+
+.card IMG { position: relative; }
+
+.ed{ left: -98px; top:-75px; z-index:3;}
+.ws{ left: -99px; top:-50px; z-index:5;}
+.qa{ left: -100px; top: -25px;z-index:7;}
+ .three { top: 75px; left: -150px; z-index: 5; }
+   .seven { left: -200px; top: 25px; z-index: 3;}
+   .ace { left: -250px; z-index: 1; }
+   .card IMG:hover { z-index: 10; }
+   
+    IMG.qw{
+	cursor:pointer;
+   border-color:#d12747;
+   border-style:double;
+   border-width:8pt;
+
+   }
+ 
+#nav {
+    margin: 50px;
+    z-index: 10;
+    display: block;
+	list-style-type:none;
+
+
+	
+}
+    #nav li { float: left;
+list-style-type:none;	}
+        #nav li:hover { position: relative }
+        #nav li:hover > a { 
+            background: #021A1A; 
+            
+            box-shadow: 5px 5px 25px #fff;
+            -moz-box-shadow: 5px 5px 25px #fff;
+            -webkit-box-shadow: 5px 5px 25px #fff;
+    
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px; 
+list-style-type:none;			
+        }
+            #nav li.sub:hover > a {
+                border-radius: 10px 10px 0 0;
+                -moz-border-radius: 10px 10px 0 0;
+                -webkit-border-radius: 10px 10px 0 0;        
+            }
+
+            #nav li a {
+                color: #fff;
+                font-weight: bold;
+                text-decoration: none;
+                padding: 12px;
+                display: block;
+            }
+                #nav li a:hover { background-color: #021A1A; text-transform:none;}        
+                    
+    #nav li ul { 
+	list-style-type:none;
+        background: #fff;
+        margin-top: -2px;
+        display: none;   
+		text-transform:none;
+		text-decoration:none;
+    }
+        #nav li:hover ul {
+            display:block; 
+            position:absolute;text-transform:none;text-decoration:none;
+			
+        }
+
+        #nav li ul {text-transform:none;text-decoration:none;
+            background: rgba(255,255,255,0.8);
+            padding: 10px 5px;
+            
+            box-shadow: 5px 5px 25px #a72f2e;
+            -moz-box-shadow: 5px 5px 25px #a72f2e;
+            -webkit-box-shadow: 5px 5px 25px #a72f2e;
+            
+            border-radius: 0px 15px 15px 15px;
+            -moz-border-radius: 0px 15px 15px 15px;
+            -webkit-border-radius: 0px 5px 5px 5px;
+        }
+            #nav li ul li a, #nav li ul li a:hover {
+                background: transparent;
+                color: #000;
+                width: 150px;
+                font-size: 0.95em;
+                font-weight: normal;text-decoration:none;
+            }
+                #nav li ul li a:hover { text-decoration: underline; 
+                    box-shadow: none;
+                    -moz-box-shadow: none;
+                    -webkit-box-shadow: none;
+                         
+                    border-radius: 0;
+                    -moz-border-radius: 0;
+                    -webkit-border-radius: 0;
+                }
+				
+				
+	.Center {
+
+  
+   margin-left: auto;
+    margin-right: auto;
+}
+	displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }		
+form {
+    margin: 1 auto;
+    max-width: 100%;
+    padding: 30px 30px 6px 30px;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #f0f0f0; 
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden; 
+}
+/* Поле сообщения */
+textarea{
+    background: #5c86b8; 
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgba(255,255,255,.6);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight: 300;
+    color:#000;
+    padding-left:25px;
+    padding-right:20px;
+    padding-top:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+/* Поля ввода */
+input {margin: 2px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid white;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight: 300;    
+    color:#000;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+
+
+input[type=submit] {
+    cursor:pointer;
+	 width: 100%;
+}
+input[type=reset] {
+    cursor:pointer;
+	 width: 100%;
+}
+
+input[type=checkbox] {
+margin:bottom;
+    cursor:pointer;
+	margin: 2px;
+    width: 50%;
+    height: 24px;
+    border: 1px solid white;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;  
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight: 300;    
+    color:#000; 
+    margin-bottom:20px;
+
+}
+input.name {
+    background: #5c86b8; 
+    padding-left:25px;
+}
+input.email {
+    background: #5c86b8;
+    padding-left:25px;
+}
+input.message {
+    background: #5c86b8;
+    padding-left:25px;
+}
+::-webkit-input-placeholder {
+    color: #000;
+}
+:-moz-placeholder{ 
+    color: #000; 
+}
+::-moz-placeholder {
+    color: #fff;
+}
+:-ms-input-placeholder {  
+    color: #000; 
+}
+input:focus, textarea:focus { 
+    background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    overflow: hidden; 
+}
+/* Стили для кнопки отправить */
+.btn {
+    width: 138px;
+    height: 44px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    float:right;
+    border: 1px solid #253737;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6da5a3), to(#416b68));
+    background: -webkit-linear-gradient(top, #6da5a3, #416b68);
+    background: -moz-linear-gradient(top, #6da5a3, #416b68);
+    background: -ms-linear-gradient(top, #6da5a3, #416b68);
+    background: -o-linear-gradient(top, #6da5a3, #416b68);
+    background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
+    padding: 10.5px 21px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    text-shadow: #333333 0 1px 0;
+    color: #e1e1e1;
+}
+.btn:hover {
+    border: 1px solid #253737;
+    text-shadow: #333333 0 1px 0;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#77b2b0), to(#416b68));
+    background: -webkit-linear-gradient(top, #77b2b0, #416b68);
+    background: -moz-linear-gradient(top, #77b2b0, #416b68);
+    background: -ms-linear-gradient(top, #77b2b0, #416b68);
+    background: -o-linear-gradient(top, #77b2b0, #416b68);
+    background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%);
+    color: #fff;
+ }
+.btn:active {
+margin: 2px;
+    margin-top:1px;
+    text-shadow: #333333 0 -1px 0;
+    border: 1px solid #333333;
+    background: ##5c86b8;
+    background: -webkit-gradient(linear, left top, left bottom, from(##5c86b8), to(#ff6600));
+    background: -webkit-linear-gradient(top, ##5c86b8, #ff6600);
+    background: -moz-linear-gradient(top, ##5c86b8, #ff6600);
+    background: -ms-linear-gradient(top, ##5c86b8, #ff6600);
+    background: -o-linear-gradient(top, ##5c86b8, #ff6600);
+    background-image: -ms-linear-gradient(top, ##5c86b8 0%, #ff6600 100%);
+    color: #fff;
+    -webkit-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    outline: none;
+}
